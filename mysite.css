@@ -1,0 +1,546 @@
+/*
+    Name: Julius Regalado 
+    Current Date: 6/22/2016
+    Class / Assignment: CGS1820 Project_3
+    Language: HTML5 
+    Purpose: Final Project
+    Includes: mysite.css, about.html,tech.html,blogs.html
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+
+html, body, header, h1{
+    padding: 1%;
+    margin: 1%;
+} /*This is a reset that reduces browser inconsistencies */
+
+
+#wrapper{
+    margin-right: 10%;
+    margin-left:  10%;
+    background-color:   #ffffff;
+    width: 80%;
+
+
+
+
+
+}
+
+#wrapper2{
+    margin-right: 10%;
+    margin-left:  10%;
+    background-color:   #ffffff;
+    width: 80%;
+
+     background-image: url(http://wallpapercave.com/wp/xqOC28D.jpg);
+
+}
+
+
+h1 {
+
+        font-family: 'Indie Flower';
+    
+        color: #1a6600;
+        font-size: 1.5em;
+
+
+
+
+    
+}
+
+h2 {
+
+        font-family: 'Indie Flower';
+          color: #1a6600;
+            text-decoration: underline;
+}
+
+nav { 
+
+ 
+    text-transform: uppercase;
+    color: #FF0000;
+
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+   
+}
+
+
+
+
+
+footer{
+    font-family: "Indie Flower", Georgia, Serif;
+    font-size: 1.5em;
+    text-align: center;
+
+    background-color:#99cc00;
+    clear:both;
+    border: 2px solid red;
+    border-radius: 12px;
+    margin: 5%;
+}
+
+#intro{
+
+    font-family: 'Indie Flower';
+
+    margin-right: 10%;
+    margin-left:  10%;
+    background-color:   #ffffff;
+    width: 80%;
+           color: #1a6600;
+           font-size: 1.25em;
+}
+
+#site1{
+
+    font-family: 'Indie Flower';
+         color: #1a6600;
+}
+
+
+
+}
+
+#Image1{
+
+    height: 300px;
+    width: auto;
+
+}
+
+.pic1 {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+
+}
+
+
+.pic1AB {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+
+
+}
+
+
+.pic2 {
+
+
+    border-style: solid;
+    border-width: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+    }
+
+.pic3 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.pic4 {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+
+}
+
+
+.pic5 {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+.pic6 {
+
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   border-radius: 20px;
+
+
+
+}
+
+.picAni {
+
+
+  
+
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+
+
+}
+
+.picAni:hover {
+
+
+  
+
+    width: 100%;
+
+}
+
+
+
+.image{
+
+    border-style: dashed;
+    border-width: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+#ImageHub{ 
+
+   border:1px solid #021a40;
+   border-radius: 12px;
+   box-shadow: inset 5px 5px 5px #828282;
+
+}
+
+#athletics{
+
+    text-align: center;
+
+    float:left;
+    width:30%;
+
+    padding:5px;
+    margin: 10px;
+    border: 2px solid green;
+    border-color:    #1a6600;
+    border-radius: 20px;
+
+}
+#fashion{
+        text-align: center;
+    float:left;
+    width:30%;
+
+    padding:5px;
+    margin: 10px;
+    border: 2px solid green;
+    border-color:    #1a6600;
+    border-radius: 20px;
+
+}
+
+
+#bedding{
+        text-align: center;
+    float:left;
+    width:30%;
+
+    padding:5px;
+    margin: 10px;
+    border: 2px solid green;
+    border-color:    #1a6600;
+    border-radius: 20px;
+    
+}
+
+#about1{
+        text-align: center;
+    float:left;
+    width:40%;
+
+    padding:5px;
+    margin: 10px;
+    border: 2px solid green;
+    border-color:    #1a6600;
+    border-radius: 20px;
+    
+}
+#about2{
+        text-align: center;
+    float:left;
+    width:50%;
+
+    padding:5px;
+    margin: 10px;
+    border: 2px solid green;
+    border-color:    #1a6600;
+    border-radius: 20px;
+    
+}
+#about3{
+        text-align: center;
+    float:left;
+    width:50%;
+
+    padding:5px;
+    margin: 10px;
+    border: 2px solid green;
+    border-color:    #1a6600;
+    border-radius: 20px;
+    
+}
+
+
+.image2{
+
+width: 70%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+
+.image3{
+
+width: 30%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 5px;
+    border-radius: 20px;
+
+}
+.image3Animation{
+
+width: 30%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 5px;
+    border-radius: 20px;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+
+.image3Animation:hover{
+
+width: 50%;
+    
+
+}
+
+
+
+.category_about{
+
+border: 20px solid red;
+  border-radius: 20px;
+  background-image: url(http://wallpapercave.com/wp/xqOC28D.jpg);
+ 
+
+}
+
+
+#wrapper2{
+
+  
+    width: auto;
+    height: auto;
+ 
+
+     background-image: url(http://static1.squarespace.com/static/55893ffee4b04b4d3bc4ad36/558ffd99e4b0fc259f0bb416/558ffda5e4b0927589e3155c/1435499941971/greenearth.jpg?format=300w);
+     background-size: 100% 100%;
+
+      border-radius: 20px;
+}
+
+
+.swapBG:hover{
+    background: #cccc00;
+    color: #ecf0f1;
+
+}
+
+.fade1{
+
+    opacity: 0.4;
+}
+
+.fade1:hover{
+        opacity: 1.0;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left:auto; 
+    margin-right:auto; 
+
+
+    margin: center;
+}
+th, td {
+    padding: 5px;
+
+    text-align: center;
+
+
+}
+tr:hover{background-color:#f5f5f5}
+
+
+
+
+}
+
+.wrapperform{
+    margin-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    background-color:#FFFFFF;
+    border-radius: 25px;
+    padding:15px;
+        font-family: 'Indie Flower';
+}
+
+.Order{
+    font-size: 1em;
+        font-family: 'Indie Flower';
+
+
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: solid;
+    background-color: #99ff99;
+    color: #000066;
+        font-family: 'Indie Flower';
+  }  
+
+  input, select {
+
+border-radius: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
+    border: 2px solid #000099;
+    text-align: left;
+
+  }
+ textarea{
+    border-radius: 25px;
+    -moz-border-radius:2 5px;
+    -webkit-border-radius: 25px
+    border: 2px solid #000099;
+    text-align: left;
+        font-family: 'Indie Flower';
+
+ }
+
+
+input[type=radio]
+{
+    width: 30px;
+    margin: 0px;
+
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+
+}
+
+button{
+    background-color: #000099;
+    color: #ffffff;
+    padding: 10px 22px;
+    text-align: center;
+    display: inline-block;
+
+    border-radius: 12px;
+
+
+
+}
+
+
+.accordion-title.active, .accordion-title:hover {
+    background:#4c4c4c;
+    /* Type */
+   text-decoration:none;
+}
+
+
+
+
+
+#accordion{
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+        overflow:hidden;
+     box-shadow:0px 1px 3px #000000;
+        border-radius:10px; 
+        font-family: 'Indie Flower'; 
+            color: #000066;       
+}
+
+
+.accordion-content{
+    font-family: 'Indie Flower';
+    background: #99ebff;
+        color: #000066;
+
+}
