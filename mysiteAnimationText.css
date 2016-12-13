@@ -1,0 +1,42 @@
+
+/*
+    Name: Julius Regalado 
+    Current Date: 6/22/2016
+    Class / Assignment: CGS1820 Project_3
+    Language: HTML5 
+    Purpose: Final Project
+    Includes: mysite.css, about.html,tech.html,blogs.html
+*/
+
+
+#quote1 {
+
+    transition-delay:4s;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+
+  }
+
+  /* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+
+       from{
+
+        margin-left:100%;
+        width: 300%;
+
+       }
+
+       to{
+        margin-left: 50%
+        width: 300%;
+
+
+
+
+       }
+
+
+
+
+}

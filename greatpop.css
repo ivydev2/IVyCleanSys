@@ -1,0 +1,201 @@
+/*
+	Name: Lisha Yang
+	Current Date: 7.11.2016
+	Class/Assignment: CGS1820
+	Language: HTML5, CSS
+	Purpose: Final Project
+	mysite.css
+*/
+/* Color hex: 
+	Terracotta #945D60
+	Herb #626E60
+	Chili #AF473C
+	Charcoal #3C3C3C
+	Daisy #E9E7DA	
+	Scrub #C0B3A0
+*/
+h1 {	color: #FFFFFF;	
+		background-color: #AF473C;
+		font-family: Changa, Arial, sans-serif;
+		font-size: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 5px 5px 5px #3C3C3C;}
+#smolH1 { font-size: 50px;}
+
+nav {	background-color: #3C3C3C;
+		font-size: 20px;
+		line-height: 175%;
+		text-align: center;
+		font-family: "Exo 2", Arial, sans-serif;}
+
+img {	display: block;
+		margin-left: auto;
+		margin-right: auto;}
+
+figcaption { text-align: center;
+			 font-family: Arial, Helvetica, sans-serif;
+			 font-size: 10px;}
+		
+body {	background-color: #E9E7DA;
+		color: #3C3C3C;
+		font-family: Arial, Helvetica, sans-serif;
+		background-image: linear-gradient(to top, #C0B3A0, #E9E7DA);}
+
+h3 { border: 2px solid #AF473C;
+	padding: 3px;
+	border-radius: 5px;}
+	
+dt { background-color: #626E60;
+		padding: 2px;
+		color: #FFFFFF;
+		font-weight: bold;}		
+
+footer { clear: both;
+		 font-size: 10px;
+		 text-align: center;
+		 color: #945D60;}
+		 
+nav a {	text-decoration: none;
+		color: #FFFFFF;
+		margin-left: 15px;
+		margin-right: 15px;}	
+
+footer a {	text-decoration: none;
+			color: #FFFFFF;}
+			
+main a:link { color: #AF473C;}			
+			
+main a:hover, main a:visited {color: #945D60;
+		 text-decoration: none;}
+		 
+/* All the IDs!
+columns for the main page
+The total percentages added together should be 100%*/			 
+#columnM1 {
+	float:left;
+	width:75%;
+	padding-left:2%;
+	padding-right:2%;}
+	
+#columnM2 {
+	float:right;
+	width:17%;
+	padding-left:2%;
+	padding-right:2%;
+	height:auto;
+	background-color:#626E60;
+	color: #FFFFFF;}
+#columnM2 a { color: #E9E7DA;}
+#columnM2 a:hover{ color: #E9E7DA;}
+	
+/*columns for all other pages*/	
+#column1 {
+	float:left;
+	width:22%;
+	padding-left:1%;
+	padding-right:1%;}
+	
+#column2 {
+	float:left;
+	width:22%;
+	padding-left:1%;
+	padding-right:1%;}	
+
+#column3 {
+	float:right;
+	width:50%;
+	padding-left:1%;
+	padding-right:1%;}
+	
+#columnB {
+	clear: both;
+	width: 80%;
+	margin:auto;
+}
+
+/*for Yunnan Page only*/
+#column4 {
+	float:left;
+	width:22%;
+	padding-left:1%;
+	padding-right:1%;}
+	
+#column5 {
+	float:left;
+	width:22%;
+	padding-left:1%;
+	padding-right:1%;}	
+
+#column6 {
+	float:right;
+	width:50%;
+	padding-left:1%;
+	padding-right:1%;}
+	
+#columnB2 {
+	clear: both;
+	width: 80%;
+	margin:auto;
+}
+	 
+#wrapper {	width:90%;
+			padding-left:2%;
+			padding-right:2%;
+			margin:auto;}
+			
+#bgWhite {	background-color: #FFFFFF;}
+			
+/* image gallery settings*/
+.imgGal { 
+	margin: 3px;
+	border: 1px solid #3C3C3C;	
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;}
+.imgGal:hover { border: 1px solid #AF473C;
+		color: #AF473C;
+		z-index: 1;}
+.imgGal img {
+	max-width: 100%;
+	height: 75%;
+	background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;}
+.imgGal img:hover {
+	transform: scale(2.5,2.5);
+	transition: .5s transform;}
+.desc { padding: 1px;
+		font-size: 12px;
+		text-align: center;}
+		
+/*All the other classes!*/			
+.imgBorder { border: 10px solid #3C3C3C;}
+.bgGreen { background: #626E60;
+		padding-bottom: 1%;}
+.imgSize { width: 50%;}
+/*For all the images in the columns*/
+.hovPic { width:100%; height: auto; border-radius: 5%;}
+.hovPic:hover {	transform: scale(1.7,1.7);
+	transition: .3s transform;}
+/*Specifically for images in column3*/
+.hovPicDL { width:35%; height: auto; border-radius: 3%;
+		padding-top: 2px;}
+.hovPicDL:hover {	transform: scale(1.7,1.7);
+	transition: .3s transform;}
+/*only used for homge page p much*/
+.flexPics { max-width:100%; height:auto;}
+.centxt { text-align: center;}
+/*for my personal opinions*/
+.opn { border: 3px dotted #626E60;
+		border-radius: 10px;
+		padding: 5px;}
+.emph { font-style: italic;}
+.pad { padding: 1%;}
+.red { color: #FFFFFF;	
+	background-color: #AF473C;
+	width: 50%;
+	margin:auto
